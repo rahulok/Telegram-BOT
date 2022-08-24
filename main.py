@@ -4,10 +4,10 @@ import requests
 from pytz import timezone
 from datetime import datetime
 
-API_KEY = '5658169924:AAE4mAeZY1p2WFG7OeO5jbd2uNqGxVHGTus'
+API_KEY = 'TGAPIKEY'
 try:
     bot = telebot.TeleBot(API_KEY)
-    f = firebase.FirebaseApplication('https://tg-bot-4c8cf-default-rtdb.firebaseio.com/',None)
+    f = firebase.FirebaseApplication('https://tg-bot-hidingtheurl',None)
 except:
     print('Some error occured while connecting to api')
 c = 187
